@@ -17,5 +17,22 @@ Feel free to fork this if you want, spy on all the source-code. This is open-sou
 - If this does not work, consider installing the Microsoft Visual C++ Redistributable which is included in the package.
 - Normally, you should not require doing so as the release executable has been compiled using GCC which should already dynamically link with the required dependencies.
 - If you have to install MS Visual C++ Redistributable please open an Issue so I can try to fix it, this is in early access.
+### IMPORTANT: Unsigned Executable Notice
+**The Lightweight Calculator executable is unsigned because this is an open-source project. You may see a warning from Windows SmartScreen when running the `.exe`. If you prefer, you can build the executable yourself using the provided source code.**
+## DIY Do It Yourself
+If you want to compile this yourself, you are more than welcome to do so, here are some instructions using the GCC compiler and Git:
+1. Clone the repository
+   ```bash
+   git clone https://github.com/informationtoyou/Lightweight-Calculator.git
+   cd Lightweight-Calculator
+   ```
+2. Build from main.cpp file
+   ```bash
+   g++ -o Lightweight-Calculator.exe main.cpp
+   ```
+3. Execute the executable
+   ```bash
+   ./Lightweight-Calculator.exe
+   ```
 ## Notes
 If you have any issues, please feel free to open an issue and/or contact me. Wishing you the best from my side!
