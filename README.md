@@ -4,7 +4,7 @@ Lightweight Calculator is a console-based app which allows you to perform calcul
 ## Details
 Lightweight Calculator is made in C++ and is supported on Windows.
 ## Technical Requirements
-You need to use a Windows OS, I reccommend a modern one. I have not tested for Windows 7, 8, XP, 3.1 (the 3 latter nobody actually uses anymore and even the case with the former). I can confirm this works on Windows 10/11.
+You need to use a Windows OS, I recommend a modern one. I have not tested for Windows 7, 8, XP, 3.1 (the 3 latter nobody actually uses anymore and even the case with the former). I can confirm this works on Windows 10/11.
 After all, it is a lightweight calculator.
 ## Pull Requests & Issues
 Pull requests are welcomed, please make an issue if you have a suggestion for the calculator or have any problems while using the application.
